@@ -16,3 +16,9 @@ a = 55;
 console.log(a);
 
 
+
+
+// Add "b" to the bottom of the script
+let b = 7 * a;
+console.log(b);
+
