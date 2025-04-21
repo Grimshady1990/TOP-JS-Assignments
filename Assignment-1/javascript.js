@@ -10,3 +10,7 @@ console.log((4 + 6 + 9) / 77);
 // Let's use some variables
 let a = 10;
 console.log(a);
+
+// log "a" with a different value
+a = 55;
+
