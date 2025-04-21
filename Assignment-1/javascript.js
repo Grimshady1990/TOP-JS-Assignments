@@ -13,4 +13,6 @@ console.log(a);
 
 // log "a" with a different value
 a = 55;
+console.log(a);
+
 
