@@ -21,4 +21,17 @@ console.log(multiply(6, 6));
 
 // Question 3: returns string with first letter capitalized
 
-function capitalize()
+function capitalize(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
+}
+
+console.log(capitalize("HeLLo mY Name iS GrIM"));
+
+// Question 4: Return the last character of a string
+
+function lastLetter(string) {
+    return string.slice(-1);
+
+}
+
+console.log(lastLetter("jdshfajksfkafhkss"));
