@@ -32,31 +32,9 @@
 
     <script>
 
-      const ulRef = document.querySelector("ul");
-      const inputRef = document.querySelector("input");
-      const btnOne = document.querySelector("button");
-
-      btnOne.addEventListener("click", buttonResponse);
-
-      function buttonResponse() {
-        newLi = document.createElement("li");
-        newSpan = document.createElement("span");
-        btnTwo = document.createElement("button");
-
-        newLi.appendChild(newSpan);
-        newLi.appendChild(btnTwo);
-        btnTwo.textContent = "Delete";
-
-        ulRef.appendChild(newLi);
-        const itemSelection = document.getElementById("item").value;
-        const emptyInput = document.getElementById("item").value = "";
-        console.log(itemSelection);
-        newSpan.textContent = itemSelection;
-        console.log(newSpan);
-      }
-      
-
-
+      const list = document.querySelector("ul");
+      const input = document.querySelector("input");
+      const button = document.querySelector("button");
 
     </script>
   </body>
