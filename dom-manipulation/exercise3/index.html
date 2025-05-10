@@ -32,6 +32,18 @@
 
     <script>
 
+      const ulRef = document.querySelector("ul");
+      const inputRef = document.querySelector("input");
+      const btnOne = document.querySelector("button");
+
+      btnOne.addEventListener("click", buttonResponse);
+
+      function buttonResponse() {
+        let itemSelection = document.getElementById("item").value;
+        const emptyInput = document.getElementById("item").value = "";
+        console.log(itemSelection);
+      }
+
     </script>
   </body>
 </html>
