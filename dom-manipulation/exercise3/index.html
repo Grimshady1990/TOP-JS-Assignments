@@ -39,10 +39,24 @@
       btnOne.addEventListener("click", buttonResponse);
 
       function buttonResponse() {
-        let itemSelection = document.getElementById("item").value;
+        newLi = document.createElement("li");
+        newSpan = document.createElement("span");
+        btnTwo = document.createElement("button");
+
+        newLi.appendChild(newSpan);
+        newLi.appendChild(btnTwo);
+        btnTwo.textContent = "Delete";
+
+        ulRef.appendChild(newLi);
+        const itemSelection = document.getElementById("item").value;
         const emptyInput = document.getElementById("item").value = "";
         console.log(itemSelection);
+        newSpan.textContent = itemSelection;
+        console.log(newSpan);
       }
+      
+
+
 
     </script>
   </body>
